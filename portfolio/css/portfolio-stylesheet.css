@@ -1,0 +1,93 @@
+@CHARSET "ISO-8859-1";
+
+html, body { 
+	margin: 0; 
+	padding: 0;
+	background: #EFEFEF; 
+	font-family: Calibri;
+}
+
+h1 {
+	line-height: 5px;
+}
+
+p.content {
+	line-height: 150%;
+	text-align: justify;
+    text-justify: inter-word;
+}
+
+p.voltar-ao-topo {
+	line-height: 150%;
+	text-align: right;
+	font-size: 13px;
+}
+
+p.citacao {
+	margin-left: 200px;
+	font-style: italic;
+	text-align: justify;
+    text-justify: inter-word;
+}
+
+#header {
+	width: 1000px;
+	/*height: 60px;*/
+	padding: 15px;
+	margin-right: auto; 
+	margin-left: auto;
+	margin-top: 0;
+	overflow: auto;
+}
+
+#main {
+	width: 1000px;
+	margin-top: 0;
+	margin-right: auto; 
+	margin-left: auto;
+	background: #FFFFFF;
+	overflow: auto;
+	box-shadow: 2px 2px 15px #888888;
+	border-radius: 3px;
+}
+
+div.content {
+	width: 650px;
+	margin-left: 25px;
+	/*background: lightyellow;*/
+	overflow: auto;
+	border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #DCDCDC;
+}
+
+#sidebar {
+	width: 275px;
+	margin-right: 25px;
+	margin-top:20px;
+	background: #F5F5F5;
+	float: right;
+	overflow: auto;
+	box-shadow: 2px 2px 15px #888888;*/
+	border-radius: 3px;
+}
+
+#sidebar-content {
+	width: 235px;
+	margin-right: 15px;
+	float: right;
+	overflow: auto;
+}
+
+#footer {
+	width: 1000px;
+	height: 50px;
+	margin-top: 0;
+	margin-right: auto; 
+	margin-left: auto;
+}
+
+th, td {
+    text-align: left;
+}
+
